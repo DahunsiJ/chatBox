@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chatBox</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <button class="open-btn-chat"  type="button" onclick="openChat()">Chat</button>
+
+        <div class="chatbox" id="chatbox">
+            <h2>Message</h2>
+            <form action="active" class="form-container">
+                <textarea type="text" placeholder="Type Text...." name="msg" id="msg" cols="30" rows="10" required></textarea>
+                <button type="submit" class="send-btn-chat">Send</button>
+                <button type="button" class="close-btn-chat" onclick="closeChat()">Close</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

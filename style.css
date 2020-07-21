@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .btn-chat{
+    border: none;
+    padding: ;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width:20%;
+} */
+
+/* #chatbox{
+    display: none;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    z-index: 9;
+} */
+
+/* .form-container{
+    max-width: 300px;
+    padding: 10px;
+    background: white;
+} */
+
+/* .form-container textarea{
+    width: 100%;
+    min-height: 200px;
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+    font-size: 15px' */
+}
+
+/* .form-container:focus{
+    background: #ddd;
+    outline: none;
+} */
+
+/* .btn-send, .btn-close{
+    padding: ;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+    opacity: 0.9;
+} */
+
+/* .btn-send, .btn-close, .btn-chat:hover{
+    opacity: 1;
+} */
+
+h2{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+    font-size: 50%;
+    color: rgba(255,255,255,1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Button used to open the chat box - fixed at the bottom of the page */
+.open-btn-chat{
+    background-color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0,0.7);
+    padding: 16px 20px;
+    border:none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width:280px;
+}
+
+/* The popup chat - hidden by default */
+.chatbox{
+    display: none;
+    position: fixed;
+    bottom:  0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Addind styles to the form container */
+.form-container{
+    max-width: 300px;
+    padding: 10px;
+    background-color: #f1f1f1
+}
+/* Full-width textarea */
+.form-container textarea{
+    width:100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    min-height: 200px;
+}
+/* Styling the submit/send button */
